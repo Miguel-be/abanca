@@ -1,0 +1,8 @@
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\bin\Abanca.dll
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\bin\Abanca.pdb
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\bin\Abanca.xml
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\obj\Debug\Abanca.Resources.resources
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\obj\Debug\Abanca.vbproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\obj\Debug\Abanca.dll
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\obj\Debug\Abanca.xml
+C:\Users\Miguel\Documents\Visual Studio 2010\Projects\Abanca\Abanca\obj\Debug\Abanca.pdb

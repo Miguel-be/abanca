@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{C500C731-3810-4348-861D-35C0238C4A39}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Abanca</RootNamespace>
+    <AssemblyName>Abanca</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Abanca.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Abanca.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aviso-legal.aspx" />
+    <Content Include="contacto.aspx" />
+    <Content Include="css\style-avisos.css" />
+    <Content Include="css\style-contacto.css" />
+    <Content Include="css\style-nosotros.css" />
+    <Content Include="css\style-clinicas.css" />
+    <Content Include="css\style-colegios.css" />
+    <Content Include="css\style-comunidades.css" />
+    <Content Include="css\style-presupuesto.css" />
+    <Content Include="css\style-oficinas.css" />
+    <Content Include="empresa-limpiezas-madrid.aspx" />
+    <Content Include="error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="index.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="js\functions.js" />
+    <Content Include="limpieza-clinicas.aspx" />
+    <Content Include="limpieza-colegios.aspx" />
+    <Content Include="limpieza-comunidades.aspx" />
+    <Content Include="limpieza-oficinas.aspx" />
+    <Content Include="mantenimiento-de-comunidades.aspx" />
+    <Content Include="mantenimiento-de-jardines.aspx" />
+    <Content Include="mantenimiento-de-piscinas.aspx" />
+    <Content Include="politica-cookies.aspx" />
+    <Content Include="politica-privacidad.aspx" />
+    <Content Include="presupuesto-limpieza.aspx" />
+    <Content Include="responsabilidad-social-corporativa.aspx" />
+    <Content Include="servicios-de-conserjeria.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aviso-legal.aspx.designer.vb">
+      <DependentUpon>aviso-legal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aviso-legal.aspx.vb">
+      <DependentUpon>aviso-legal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="contacto.aspx.designer.vb">
+      <DependentUpon>contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contacto.aspx.vb">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="empresa-limpiezas-madrid.aspx.designer.vb">
+      <DependentUpon>empresa-limpiezas-madrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="empresa-limpiezas-madrid.aspx.vb">
+      <DependentUpon>empresa-limpiezas-madrid.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="limpieza-clinicas.aspx.designer.vb">
+      <DependentUpon>limpieza-clinicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="limpieza-clinicas.aspx.vb">
+      <DependentUpon>limpieza-clinicas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="limpieza-colegios.aspx.designer.vb">
+      <DependentUpon>limpieza-colegios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="limpieza-colegios.aspx.vb">
+      <DependentUpon>limpieza-colegios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="limpieza-comunidades.aspx.designer.vb">
+      <DependentUpon>limpieza-comunidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="limpieza-comunidades.aspx.vb">
+      <DependentUpon>limpieza-comunidades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="limpieza-oficinas.aspx.designer.vb">
+      <DependentUpon>limpieza-oficinas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="limpieza-oficinas.aspx.vb">
+      <DependentUpon>limpieza-oficinas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mantenimiento-de-comunidades.aspx.designer.vb">
+      <DependentUpon>mantenimiento-de-comunidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento-de-comunidades.aspx.vb">
+      <DependentUpon>mantenimiento-de-comunidades.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mantenimiento-de-jardines.aspx.designer.vb">
+      <DependentUpon>mantenimiento-de-jardines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento-de-jardines.aspx.vb">
+      <DependentUpon>mantenimiento-de-jardines.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="mantenimiento-de-piscinas.aspx.designer.vb">
+      <DependentUpon>mantenimiento-de-piscinas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento-de-piscinas.aspx.vb">
+      <DependentUpon>mantenimiento-de-piscinas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="politica-cookies.aspx.designer.vb">
+      <DependentUpon>politica-cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="politica-cookies.aspx.vb">
+      <DependentUpon>politica-cookies.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="politica-privacidad.aspx.designer.vb">
+      <DependentUpon>politica-privacidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="politica-privacidad.aspx.vb">
+      <DependentUpon>politica-privacidad.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="presupuesto-limpieza.aspx.designer.vb">
+      <DependentUpon>presupuesto-limpieza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="presupuesto-limpieza.aspx.vb">
+      <DependentUpon>presupuesto-limpieza.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="repo.vb" />
+    <Compile Include="responsabilidad-social-corporativa.aspx.designer.vb">
+      <DependentUpon>responsabilidad-social-corporativa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="responsabilidad-social-corporativa.aspx.vb">
+      <DependentUpon>responsabilidad-social-corporativa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="servicios-de-conserjeria.aspx.designer.vb">
+      <DependentUpon>servicios-de-conserjeria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servicios-de-conserjeria.aspx.vb">
+      <DependentUpon>servicios-de-conserjeria.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65196</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

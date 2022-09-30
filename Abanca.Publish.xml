@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Miguel\Desktop\abanca" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="css/style-clinicas.css" publishTime="03/09/2022 17:16:57" />
+    <file relUrl="css/style-nosotros.css" publishTime="04/12/2022 17:19:35" />
+    <file relUrl="limpieza-colegios.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="Global.asax" publishTime="03/17/2022 09:49:49" />
+    <file relUrl="js/functions.js" publishTime="03/21/2022 18:19:08" />
+    <file relUrl="aviso-legal.aspx" publishTime="03/28/2022 18:42:13" />
+    <file relUrl="bin/Abanca.xml" publishTime="04/12/2022 17:26:25" />
+    <file relUrl="mantenimiento-de-jardines.aspx" publishTime="03/28/2022 18:37:31" />
+    <file relUrl="empresa-limpiezas-madrid.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="servicios-de-conserjeria.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="error.aspx" publishTime="04/12/2022 17:24:13" />
+    <file relUrl="css/style-contacto.css" publishTime="03/12/2022 14:27:21" />
+    <file relUrl="limpieza-comunidades.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="politica-privacidad.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="css/style-avisos.css" publishTime="03/12/2022 14:46:14" />
+    <file relUrl="css/style-presupuesto.css" publishTime="03/12/2022 14:24:16" />
+    <file relUrl="bin/Abanca.dll" publishTime="04/12/2022 17:26:25" />
+    <file relUrl="limpieza-oficinas.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="responsabilidad-social-corporativa.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="css/style-comunidades.css" publishTime="03/16/2022 09:52:07" />
+    <file relUrl="politica-cookies.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="presupuesto-limpieza.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="Web.config" publishTime="04/12/2022 17:26:28" />
+    <file relUrl="mantenimiento-de-piscinas.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="index.aspx" publishTime="04/12/2022 17:24:18" />
+    <file relUrl="bin/Abanca.pdb" publishTime="04/12/2022 17:26:25" />
+    <file relUrl="limpieza-clinicas.aspx" publishTime="03/28/2022 18:42:12" />
+    <file relUrl="css/style-oficinas.css" publishTime="02/18/2022 18:39:07" />
+    <file relUrl="css/style-colegios.css" publishTime="03/01/2022 13:11:28" />
+    <file relUrl="mantenimiento-de-comunidades.aspx" publishTime="03/28/2022 19:37:23" />
+    <file relUrl="contacto.aspx" publishTime="03/28/2022 18:42:13" />
+    <file relUrl="css/style.css" publishTime="03/28/2022 18:51:12" />
+  </publishProfile>
+</publishData>
